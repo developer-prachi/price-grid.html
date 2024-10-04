@@ -1,0 +1,115 @@
+/* Font-sizes(px): 
+10/12/14/16/18/20/24/30/36/44/52/62/74/86/98 
+
+- SPACING SYSTEM (px)
+2/4/8/12/16/24/32/48/64/80/96/128 */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  /* display: flex;
+  justify-content: center; */
+}
+body {
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(204, 43%, 93%);
+  height: 100vh;
+  align-items: center;
+}
+.main-section {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.section-one {
+  grid-column: 1/-1;
+  padding: 3.2rem;
+  background-color: white;
+}
+.heading-one {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 2rem;
+}
+.heading-two {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 1.2rem;
+}
+
+.main-content {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: hsl(218, 22%, 67%);
+}
+.monthly {
+  font-size: 1.6rem;
+  padding-bottom: 1.2rem;
+  font-weight: 700;
+}
+.section-two {
+  padding: 3.2rem;
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+}
+
+.price-info {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding-bottom: 0.4rem;
+}
+.price {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+span {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.description {
+  font-size: 1.4rem;
+  padding-bottom: 3.2rem;
+}
+
+.signup {
+  text-decoration: none;
+  background-color: hsl(71, 73%, 54%);
+  padding: 1.2rem;
+  font-weight: 700;
+  color: hsl(204, 43%, 93%);
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.2);
+}
+.section-three {
+  padding: 3.2rem;
+  background-color: #66c2bf;
+  color: hsl(204, 43%, 93%);
+}
+.why-us {
+  font-size: 1.6rem;
+  padding-bottom: 1.2rem;
+  font-weight: 700;
+}
+.content {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  padding-right: 4.8rem;
+}
